@@ -354,7 +354,7 @@ footer ul li a{
     }
 } 
 
-@media(max-width:430px){
+@media(max-width:600px){
     header #menu-icon{
         display: block;
     }
