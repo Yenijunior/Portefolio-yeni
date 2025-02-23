@@ -374,6 +374,26 @@ footer ul li a{
         padding: 1rem;
     }
     nav-links.active{
-        display : block;
-        }
+        display: block;
+    }
+    header{
+        padding: 1rem 5rem;
+        gap: 8rem;
+    }
+
+    .about-container img{
+        width: 80vw;
+    }
+    .input-box input{
+        padding: 0.5rem 3rem;
+        width: 80%;
+        font-size: 1.5rem;
+    }
+    .input-box input::placeholder{
+        font-size: 1.5rem;
+    }
+    .footer ul{
+        gap: 1rem;
+    }
+  
 }
