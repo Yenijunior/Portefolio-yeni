@@ -302,7 +302,7 @@ footer ul li a{
 @media(max-width:1280px){
     header{
         padding: 1rem 2rem;
-        gap:  rem;
+        gap:  2rem;
     }
     .about .about-container{
         gap: 3rem;
@@ -332,6 +332,9 @@ footer ul li a{
     }
     header .visit-btn{
             display: none;
+    }
+    .about-container{
+        flex-direction: column;
     }
     .input-box input{
         padding: 1rem 2rem;
@@ -380,6 +383,9 @@ footer ul li a{
         padding: 1rem 5rem;
         gap: 8rem;
     }
+    header .logo{
+       font-size: 1.5rem;
+    }
 
     .about-container img{
         width: 80vw;
@@ -395,5 +401,4 @@ footer ul li a{
     .footer ul{
         gap: 1rem;
     }
-  
 }
