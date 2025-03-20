@@ -2,23 +2,24 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <link rel="shortcut icon" type="x-icon" href="./Images/logo-itic-paris.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portefolio Yeni</title>
+    <title>Portefolio de Yeni</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    
+    <!-- Debut navbar -->
     <header class="header"> 
         <a href="#" class="logo"><span>Yeni</span></a>
 
         <ul class="nav-links">
             <li>
-                <a href="#about">A propos</a>
+                <a href="#about">Infos</a>
             </li>
 
             <li>
-                <a href="#experience">Expérience</a>
+                <a href="#experience">Expériences</a>
             </li>
 
             <li>
@@ -30,38 +31,46 @@
             </li>
         </ul>
 
-        <i class="fa-solid fa-bars" id="menu-icon"></i>
-            <button class="visit-btn">Voir Github</button>
+        <i class="fa-solid fa-bars" id="menu-icon"></i> 
+        <!-- Fin navbar -->
+        <a href="https://github.com/Yenijunior" target="_blank" class="visit-btn" id="github-button">Voir Github</a>
     </header>
 
+    <!-- A propos -->
     <section id="about" class="about">
         <div class="about-container">
             <img src="./Images/Photo.jpg" alt="">
 
             <div class="info-box">
                 <div class="text">
-                    <h3>Bonjour, je suis</h3>
+                    <h3>Salut, je suis</h3>
                     <h1>Yeni BOUSSAMBA MAPAGA</h1>
                     <span>Etudiant en BTS SIO</span>
                 </div>
 
                 <div class="btn-group">
-                        <div class="btn">Telecharger le CV</div>
-                    <div class="btn">Contact</div>
+                    <a href="./Docs/Cv.pdf" target="_blank" class="btn" id="afficher-cv">Mon CV</a>
+                    <a href="#contact" class="btn">Contact</a>
                 </div>
 
                 <div class="socials">
+                    <a href="https://github.com/Yenijunior" target="_blank">
                         <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/yeni-boussamba-mapaga-3aa0162a4/" target="_blank">
                         <i class="fa-brands fa-linkedin"></i>
+                    </a>
                 </div>
             </div>
 
         </div>
     </section>
+    <!-- Fin A propos -->
 
+    <!-- Debut de mes expériences -->
     <section id="experience" class="experience">
 
-        <h2 class="section-title">Experience</h2>
+        <h2 class="section-title">Experiences</h2>
 
         <div class="experience-info">
 
@@ -98,29 +107,30 @@
             <img src="./Images/Photo.jpg" alt="">
         </div>
     </section>
+    <!-- Fin de mes expériences -->
 
+    <!-- Debut de mes projets -->
     <section id="projects" class="projects">
 
         <h2 class="section-title">Mes Projets</h2>
 
         <div class="projects-grid">
-
-            <div class="project-card">
-                <img src="./Images/Snake3D.jpg" alt="">
-                <h3>Jeu de snake 3D avec Unity et C#</h3>
-                <p>Création d'un jeu Snake en 3D avec Unity et C#, conçu pour les moments de pause du personnel. J'ai développé les fonctionnalités du jeu et veillé à sa compatibilité avec différents appareils, offrant ainsi une expérience ludique et fluide pour les utilisateurs</p>
-                <div class="btn-group">
-                    <div class="btn">Demo en direct</div>
-                    <div class="btn">Github Repo</div>
-                </div>
-            </div>    
-
                 <div class="project-card">
                     <img src="./Images/f49y3HRM_400x400.png" alt="">
                     <h3>Projet Batman</h3>
                     <p>Creation d'un site pour décrire le Film Batman.</p>
                     <div class="btn-group">
                         
+                        <div class="btn">Demo en direct</div>
+                        <div class="btn">Github Repo</div>
+                    </div>
+                </div> 
+
+                <div class="project-card">
+                    <img src="./Images/Snake3D.jpg" alt="">
+                    <h3>Jeu de snake 3D avec Unity et C#</h3>
+                    <p>Création d'un jeu Snake en 3D avec Unity et C#, conçu pour les moments de pause du personnel. J'ai développé les fonctionnalités du jeu et veillé à sa compatibilité avec différents appareils, offrant ainsi une expérience ludique et fluide pour les utilisateurs</p>
+                    <div class="btn-group">
                         <div class="btn">Demo en direct</div>
                         <div class="btn">Github Repo</div>
                     </div>
@@ -139,26 +149,39 @@
             </div>
         </div>
     </section>
+    <!--Fin de mes projets -->
 
-    <section class="contact" id="contact">
-        <div class="input-box">
-
-            <h2 class="section-title">Contactez-moi</h2>
-
-            <div class="input">
-                <input type="text" placeholder="exemple@gmail.com">
-                <i class="fa-solid fa-envelope"></i>
-            </div>
-
-            <div class="btn">soumettre</div>
-        </div>
-    </section>
+    <!--Debut contact -->
+</section>
+<section id="contact">
+  <p class="section__text__p1">Entrer en contact</p>
+  <h1 class="title">Contactez-moi</h1>
+  <div class="contact-info-upper-container">
+    <div class="contact-info-container">
+      <img
+        src="./Images/email.png"
+        alt="Email icon"
+        class="icon contact-icon email-icon"
+      />
+      <p><a href="mailto:examplemail@gmail.com">yenijunior2022@gmail.com</a></p>
+    </div>
+    <div class="contact-info-container">
+      <img
+        src="./Images/linkedin.png"
+        alt="LinkedIn icon"
+        class="icon contact-icon"
+      />
+      <p><a href="https://www.linkedin.com/in/yeni-boussamba-mapaga-3aa0162a4/">LinkedIn</a></p>
+    </div>
+  </div>
+</section>
+    <!--Fin contact -->
 
     <footer>
 
         <ul>
             <li>
-                <a href="#about">A propos</a>
+                <a href="#about">info</a>
             </li>
 
             <li>
